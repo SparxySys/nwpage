@@ -1,0 +1,410 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="generator" content="pandoc">
+      <meta name="author" content="Sparxy#0666">
+      
+      <title>Nightmare World Stuff assembled by a Rando</title>
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/thomaspark/bootswatch@v4/dist/darkly/bootstrap.min.css">
+      <!-- Font-awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Styles -->
+      <style>
+         html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #ccc;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+h6 {
+    font-style: italic;
+}
+
+pre {
+    display: block;
+    padding: .75rem;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+blockquote {
+    font-weight: 400;
+    font-size: 1.35rem;
+    margin: 1rem 0 2rem;
+    border-left: 2px solid #ccc;
+    padding-left: 2rem;
+}
+
+.container {
+    font-size: 1.1rem;
+}
+
+.pagination {
+    font-size: .95rem;
+    margin-top: 4rem;
+}
+
+.footer {
+    font-size: .85rem;
+    padding: .875rem 0 .875rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height: 6rem;
+    overflow: visible;
+}
+
+.table {
+    font-size: 1rem;
+    color: inherit;
+    width: auto;
+    margin: auto;
+}
+
+.navbar {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.bd-navbar .navbar-nav .nav-link {
+    padding-right: .65rem;
+    padding-left: .65rem;
+}
+
+.bd-navbar .navbar-nav .nav-link.active,
+.bd-navbar .navbar-nav .nav-link:hover {
+    background-color: transparent;
+}
+
+.bd-navbar .navbar-nav .nav-link.active {
+    font-weight: 600;
+}
+
+.bd-toc {
+    font-size: .875rem;
+    top: 3rem;
+    right: 0;
+    position: fixed;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+}
+
+.section-nav {
+    padding-left: 0;
+    border-left: 1px solid #eee;
+}
+
+.section-nav ul {
+    padding-left: 1rem;
+}
+
+.toc-entry {
+    margin-left: -15px;
+    display: block;
+}
+
+.toc-entry a {
+    display: block;
+    padding: .125rem 1.5rem;
+}
+
+.toc-entry a:hover {
+    text-decoration: none;
+}
+
+.toc-entry ul {
+    list-style: none;
+}
+
+/* Alert */
+code span.al {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Annotation */
+code span.an {
+    color: #60a0b0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Attribute */
+code span.at {
+    color: #7d9029;
+}
+
+/* BaseN */
+code span.bn {
+    color: #40a070;
+}
+
+/* BuiltIn */
+code span.bu {
+    color: #06287e;
+}
+
+/* ControlFlow */
+code span.cf {
+    color: #007020;
+    font-weight: bold;
+}
+
+/* Char */
+code span.ch {
+    color: #4070a0;
+}
+
+/* Constant */
+code span.cn {
+    color: #880000;
+}
+
+/* Comment */
+code span.co {
+    color: #60a0b0;
+    font-style: italic;
+}
+
+/* CommentVar */
+code span.cv {
+    color: #60a0b0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Documentation */
+code span.do {
+    color: #ba2121;
+    font-style: italic;
+}
+
+/* DataType */
+code span.dt {
+    color: #902000;
+}
+
+/* DecVal */
+code span.dv {
+    color: #40a070;
+}
+
+/* Error */
+code span.er {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Extension */
+code span.ex {
+    color: #06287e;
+}
+
+/* Float */
+code span.fl {
+    color: #40a070;
+}
+
+/* Function */
+code span.fu {
+    color: #06287e;
+}
+
+/* Import */
+code span.im {
+    color: #007020;
+    font-weight: bold;
+}
+
+/* Information */
+code span.in {
+    color: #60a0b0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Keyword */
+code span.kw {
+    color: #007020;
+    font-weight: bold;
+}
+
+/* Operator */
+code span.op {
+    color: #666666;
+}
+
+/* Other */
+code span.ot {
+    color: #007020;
+}
+
+
+/* Preprocessor */
+code span.pp {
+    color: #bc7a00;
+}
+
+/* SpecialChar */
+code span.sc {
+    color: #4070a0;
+}
+
+/* SpecialString */
+code span.ss {
+    color: #bb6688;
+}
+
+/* String */
+code span.st {
+    color: #4070a0;
+}
+
+/* Variable */
+code span.va {
+    color: #19177c;
+}
+
+/* VerbatimString */
+code span.vs {
+    color: #4070a0;
+}
+
+/* Warning */
+code span.wa {
+    font-weight: bold;
+    font-style: italic;
+}
+      </style>
+            <!-- Add favicon here -->
+            <!-- Add site-verifications here -->
+         </head>
+   <body>
+            <!-- From https://getbootstrap.com/docs/4.5/components/navbar/ -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+               <a class="navbar-brand" href="#">Nightmare World FAQ assembled by random stream watcher</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">FAQ<span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="https://www.twitch.tv/callum_upton">Twitch</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+            <div class="container">
+         <h1 class="title">Nightmare World Stuff assembled by a Rando</h1>
+                  <div class="row">
+            <div class="col-xl-10"><h1 id="nightmare-world">Nightmare World</h1>
+<p>! This page is assembled by a rando in the chat and is not an official document from the Nightmare World team.</p>
+<p>Questions are listed in no particular order.</p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="is-the-game-world-going-to-be-procedurally-animated-or-hand-crafted">Is the game world going to be procedurally animated or hand-crafted?</h3>
+<p>The core cities and areas are intended to be hand-crafted. The wilderness or open world areas are currently being considered to be procedurally generated.</p>
+<h3 id="what-game-engine-does-the-game-use">What game engine does the game use?</h3>
+<p>The developers currently use Unreal Engine 4 as a game engine, however they did mention that if/when they want to switch to UE5 when it is more mature, it should be pretty easy/take very little effort.</p>
+<h3 id="how-is-player-networking-and-persistence-handled-server-sharding-etc.">How is player networking and persistence handled? (Server sharding, etc.)</h3>
+<p>OWS - Open World Server is currently used as a networking and persistence back-end for the game.</p>
+<h3 id="is-there-player-housing-is-it-permanent">Is there player housing? Is it permanent?</h3>
+<p>Instanced player housing that is not deleted.<br />
+Wilderness buildings or builds in the public areas can be destroyed by events and will probably be a lot more temporary.</p>
+<h3 id="are-there-multiple-classes-in-game">Are there multiple classes in game?</h3>
+<p>No, the game is classless and completely based on skills your character can acquire, perhaps something akin to Runescape.</p>
+<h3 id="how-will-combat-work">How will combat work?</h3>
+<p>It was mentioned that the combat may be something akin to having multiple attack types per weapon, again somewhat akin of Runescape. However, weapons will be crafted in a modular way (See plenty of Callum’s youtube videos) which will affect how combat will flow.</p>
+<p>Because of the modular smithing system, they are currently looking towards making this into action combat.</p>
+<h3 id="are-there-multiple-races-in-the-game">Are there multiple races in the game?</h3>
+<p>The players (tentatively called <em>Citizens</em> at the moment), are mostly humanoid beings. However, the world they live on can morph them, introducing additional character customisation features, ranging from simple new skins, model/ear features, scales, elves, dragon people, up to werewolves and other still humanoid but more animalistic morphs. Races will be mostly a role-playing features and may form cliques.</p>
+<h3 id="will-there-be-flying-in-the-game">Will there be flying in the game?</h3>
+<p>No, most likely not, because it is hard to indicate player direction when there is free flying available. However, gliding may be introduced at some point.</p>
+<h3 id="what-tools-are-being-used-to-develop-the-game">What tools are being used to develop the game?</h3>
+<p>The developers are proving that you can start the development of a game / vertical slice of a game, using solely free tools, without any additional funding.</p>
+<p>Because of this, they are focusing on various freely available tools: * UE4 * Blender * GIMP * Krita * OWS * …</p>
+<h3 id="i-want-to-apply-or-help">I want to apply or help!</h3>
+<p>Join the Discord and send in an application with your skills and shortcomings, as well as your portfolio!</p></div>
+            <div class="d-none d-xl-block col-xl-2 bd-toc">
+               <ul class="section-nav">
+                  <li class="toc-entry"><ul>
+<li><a href="#nightmare-world">Nightmare World</a>
+<ul>
+<li><a href="#frequently-asked-questions">Frequently Asked Questions</a>
+<ul>
+<li><a href="#is-the-game-world-going-to-be-procedurally-animated-or-hand-crafted">Is the game world going to be procedurally animated or hand-crafted?</a></li>
+<li><a href="#what-game-engine-does-the-game-use">What game engine does the game use?</a></li>
+<li><a href="#how-is-player-networking-and-persistence-handled-server-sharding-etc.">How is player networking and persistence handled? (Server sharding, etc.)</a></li>
+<li><a href="#is-there-player-housing-is-it-permanent">Is there player housing? Is it permanent?</a></li>
+<li><a href="#are-there-multiple-classes-in-game">Are there multiple classes in game?</a></li>
+<li><a href="#how-will-combat-work">How will combat work?</a></li>
+<li><a href="#are-there-multiple-races-in-the-game">Are there multiple races in the game?</a></li>
+<li><a href="#will-there-be-flying-in-the-game">Will there be flying in the game?</a></li>
+<li><a href="#what-tools-are-being-used-to-develop-the-game">What tools are being used to develop the game?</a></li>
+<li><a href="#i-want-to-apply-or-help">I want to apply or help!</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+               </ul>
+            </div>
+         </div>
+               </div>
+            <!-- Add comment hosting service here -->
+            <!-- Footer -->
+            <footer class="footer text-muted">
+               <div align="center">
+                  <!-- Update licences -->
+                  Text content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+                  <br />
+                  <!-- Please keep the following line -->
+                  Built with <a href="https://www.pandoc.org" target="_blank" rel="noopener">Pandoc</a> 
+                  using <a href="https://github.com/ashki23/pandoc-bootstrap" target="_blank" rel="noopener">pandoc-bootstrap</a> theme
+                  <br />
+                  <!-- Update copyright -->
+                  Copyright 2021 &copy; BV Vampyre Bytes
+               </div>
+            </footer>
+            <!-- Add global site tag (gtag.js) and site analytics here -->
+            <!-- JS, Popper.js, and jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <!-- Mathjax -->
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script>
+         /* Bootstrap styles to tables */
+         function bootstrapStylePandocTables() {
+         $('tr.header').parent('thead').parent('table').addClass('table table-condensed'); }
+         $(document).ready(function () { bootstrapStylePandocTables(); });
+         /* Adjust the height when click the toc */
+         var shiftWindow = function() { scrollBy(0, -60) };
+         window.addEventListener("hashchange", shiftWindow);
+         function load() { if (window.location.hash) shiftWindow(); }
+      </script>
+   </body>
+</html>
